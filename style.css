@@ -10,7 +10,7 @@ body{
 }
 /* nav */
 header{
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(http://www.omnifood.net/resources/CSS/img/hero-min.jpg) center/cover fixed;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/hero-min.jpg) center/cover fixed;
     height: 100vh;
 }
 header *{
@@ -260,7 +260,7 @@ hr{
     color: #555555;
 }
 #reviews{
-    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(http://www.omnifood.net/resources/CSS/img/back-customers-min.jpg) center/cover fixed;
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/back-customers-min.jpg) center/cover fixed;
     color: #fff;
     padding: 2px 0 80px;
 }
@@ -411,6 +411,7 @@ footer{
     padding: 40px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 footer a{
     color: #555555;
