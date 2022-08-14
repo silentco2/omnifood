@@ -439,7 +439,7 @@ footer a:hover{
 }
 .footer-social{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     gap: 20px;
 }
 footer p{
@@ -562,6 +562,21 @@ footer p{
     }
     .intro button{
         font-size: 1rem;
+    }
+    nav a{
+        font-size: 12px;
+    }
+    nav img{
+        height: 50px;
+        margin: 50px 0 auto;
+    }
+    main nav img{
+        height: 40px;
+        margin: 15px 0 auto;
+    }
+    .footer-links{
+        font-size: 0.9rem;
+        gap: 10px;
     }
 }
 @keyframes slide-up{
