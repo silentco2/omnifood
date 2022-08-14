@@ -436,6 +436,8 @@ footer a:hover{
 .footer-links{
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom:10px;
 }
 .footer-social{
     display: flex;
