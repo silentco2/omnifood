@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6a97ec8d8a.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Omnifood</title>
+</head>
+<body>
+    <header>
+        <nav id="nav-top">
+            <img src="http://www.omnifood.net/resources/CSS/img/logo-white.png" alt="logo">
+            <ul id="nav-items">
+                <li><a href="#food-delivery">FOOD DELIVERY</a></li>
+                <li><a href="#how-it-works">HOW IT WORKS</a></li>
+                <li><a href="#cities">OUR CITIES</a></li>
+                <li><a href="#sign-up">SIGN UP</a></li>
+            </ul>
+            <button class="hamburger" onclick="hide_icon()">
+                <i class="fa-solid fa-bars" id="icon"></i>
+            </button>
+        </nav>
+        <section class="intro">
+            <h1>GOODBYE JUNK FOOD.<br>HELLO SUPER HEALTHY MEALS.</h1>
+            <button class="btn-orange" onclick="sign_scroll()">I'm hungry</button>
+            <button class="btn-outline-orange" onclick="feat_scroll()">Show me more</button>
+        </section>
+    </header>
+    <main>
+        <nav id="nav-sub">
+            <img src="http://www.omnifood.net/resources/CSS/img/logo.png" alt="logo">
+            <ul id="nav-items-sub">
+                <li><a href="#food-delivery">FOOD DELIVERY</a></li>
+                <li><a href="#how-it-works">HOW IT WORKS</a></li>
+                <li><a href="#cities">OUR CITIES</a></li>
+                <li><a href="#sign-up">SIGN UP</a></li>
+            </ul>
+            <button class="hamburger" onclick="hide_icon_sub()">
+                <i class="fa-solid fa-bars" id="icon-sub"></i>
+            </button>
+        </nav>
+        <section id="food-delivery">
+            <h1>GET FOOD FAST — NOT FAST FOOD</h1>
+            <hr>
+            <p>Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
+            <div id="features">
+                <div class="feature">
+                    <i class="fa-solid fa-infinity"></i>
+                    <h2>UP TO 365 DAYS/YEAR</h2>
+                    <p>Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>
+                </div>
+                <div class="feature">
+                    <i class="fa-solid fa-stopwatch"></i>
+                    <h2>READY IN 20 MINUTES</h2>
+                    <p>You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.</p>
+                </div>
+                <div class="feature">
+                    <i class="fa-solid fa-carrot"></i>
+                    <h2>100% ORGANIC</h2>
+                    <p>All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!</p>
+                </div>
+                <div class="feature">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h2>ORDER ANYTHING</h2>
+                    <p>We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
+                </div>
+            </div>
+            <div id="gallery">
+                <figure><img src="assets/1.jpg" alt=""></figure>
+                <figure><img src="assets/2.jpg" alt=""></figure>
+                <figure><img src="assets/3.jpg" alt=""></figure>
+                <figure><img src="assets/4.jpg" alt=""></figure>
+                <figure><img src="assets/5.jpg" alt=""></figure>
+                <figure><img src="assets/6.jpg" alt=""></figure>
+                <figure><img src="assets/7.jpg" alt=""></figure>
+                <figure><img src="assets/8.jpg" alt=""></figure>
+            </div>
+    </section>
+    <section id="how-it-works">
+        <h1>HOW IT WORKS — SIMPLE AS 1, 2, 3</h1>
+        <hr>
+        <div class="center">
+            <img src="assets/iPhone.png" alt="" id="iphone">
+            <div class="steps">
+                <ol>
+                    <li><span class="step">1</span> Choose the subscription plan that best fits your needs and sign up today.</li>
+                    <li><span class="step">2</span> Order your delicious meal using our mobile app or website. Or you can even call us!</li>
+                    <li><span class="step">3</span> Enjoy your meal after less than 20 minutes. See you the next time!</li>
+                </ol>
+                <div class="download-buttons">
+                <a href=""><img src="assets/apple.svg" alt=""></a>
+                <a href=""><img src="assets/google.svg" alt=""></a>
+            </div>
+            </div>
+        </div>    
+    </section>
+    <section id="our-cities">
+        <h1>WE'RE CURRENTLY IN THESE CITIES</h1>
+        <hr>
+        <div id="cities">
+            <div class="city">
+                <img src="assets/lisbon.jpg" alt="">
+                <h2>LISBON</h2>
+                <p><span class="iconify" data-icon="bxs:user"></span> 1600+ happy eaters</p>
+                <p><span class="iconify" data-icon="ic:sharp-star"></span> 60+ top chefs</p>
+                <p><span class="iconify" data-icon="akar-icons:twitter-fill"></span> <a href="">@omnifood_lx</a></p>
+            </div>
+            <div class="city">
+                <img src="assets/san-francisco.jpg" alt="">
+                <h2>SAN FRANCISCO</h2>
+                <p><span class="iconify" data-icon="bxs:user"></span> 3700+ happy eaters</p>
+                <p><span class="iconify" data-icon="ic:sharp-star"></span> 160+ top chefs</p>
+                <p><span class="iconify" data-icon="akar-icons:twitter-fill"></span> <a href="">@omnifood_sf</a></p>
+            </div>
+            <div class="city">
+                <img src="assets/berlin.jpg" alt="">
+                <h2>BERLIN</h2>
+                <p><span class="iconify" data-icon="bxs:user"></span> 2300+ happy eaters</p>
+                <p><span class="iconify" data-icon="ic:sharp-star"></span> 110+ top chefs</p>
+                <p><span class="iconify" data-icon="akar-icons:twitter-fill"></span> <a href="">@omnifood_berlin</a></p>
+            </div>
+            <div class="city">
+                <img src="assets/london.jpg" alt="">
+                <h2>LONDON</h2>
+                <p><span class="iconify" data-icon="bxs:user"></span> 1200+ happy eaters</p>
+                <p><span class="iconify" data-icon="ic:sharp-star"></span> 50+ top chefs</p>
+                <p><span class="iconify" data-icon="akar-icons:twitter-fill"></span> <a href="">@omnifood_london</a></p>
+            </div>
+        </div>
+    </section>
+    <section id="reviews">
+        <h1>OUR CUSTOMERS CAN'T LIVE WITHOUT US</h1>
+        <hr>
+        <div class="reviews">
+            <div class="review">
+                <p>Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!</p>
+                <div class="user"><img src="http://www.omnifood.net/resources/images/customer-1.jpg" alt="">Alberto Duncan</div>
+            </div>
+            <div class="review">
+                <p>Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!</p>
+                <div class="user"><img src="http://www.omnifood.net/resources/images/customer-2.jpg" alt="">Joana Silva</div>
+            </div>
+            <div class="review">
+                <p>I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!</p>
+                <div class="user"><img src="http://www.omnifood.net/resources/images/customer-3.jpg" alt="">Milton Chapman</div>
+            </div>
+        </div>
+    </section>
+    <section id="sign-up">
+        <h1>START EATING HEALTHY TODAY</h1>
+        <hr>
+        <div class="prices">
+            <div class="price" id="premium">
+                <h3>PREMIUM</h3>
+                <h2>$399 / month</h2>
+                <h4>That’s only 13.30$ per meal</h4>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i>1 meal every day</li>
+                    <li><i class="fa-solid fa-check"></i>Order 24/7</li>
+                    <li><i class="fa-solid fa-check"></i>Access to newest creations</li>
+                    <li><i class="fa-solid fa-check"></i>Free delivery</li>
+                </ul>
+                <button class="btn-orange">Sign up now</button>
+            </div>
+            <div class="price">
+                <h3>PRO</h3>
+                <h2>$149 / month</h2>
+                <h4>That’s only 14.90$ per meal</h4>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i>10 meals/month</li>
+                    <li><i class="fa-solid fa-check"></i>Order 24/7</li>
+                    <li><i class="fa-solid fa-check"></i>Access to newest creations</li>
+                    <li><i class="fa-solid fa-check"></i>Free delivery</li>
+                </ul>
+                <button class="btn-outline-orange">Sign up now</button>
+            </div>
+            <div class="price">
+                <h3>STARTER</h3>
+                <h2>$19 / month</h2>
+                <h4>That’s only 19.00$ per meal</h4>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i>1 meal/month</li>
+                    <li><i class="fa-solid fa-check"></i>Order from 8 am to 12 pm</li>
+                    <li><i class="fa-solid fa-xmark"></i>Access to newest creations</li>
+                    <li><i class="fa-solid fa-check"></i>Free delivery</li>
+                </ul>
+                <button class="btn-outline-orange">Sign up now</button>
+            </div>
+        </div>
+        <div id="form">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100938.06844204932!2d-122.45723000000001!3d37.75922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcda95817c2a4021a!2sMount%20Sutro%20Open%20Space%20Reserve!5e0!3m2!1sen!2sus!4v1660441636257!5m2!1sen!2sus" loading="lazy" ></iframe>
+            <div class="contact">
+                <h1>WE'RE HAPPY TO HEAR FROM YOU</h1>
+                <hr>
+                <form action="">
+                    <label for="name">Name <input type="text" id="name" name="name" placeholder="Your name"></label>
+                    <label for="email">Email <input type="email" id="email" name="email" placeholder="Your email"></label>
+                    <label for="">Where did you hear from us? 
+                        <select name="hear" id="hear">
+                        <option value="">Please select an option</option>
+                        <option value="google">Google</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="twitter">Twitter</option>
+                        <option value="Friends">Friends</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+                <label for="">Newsletter? <label for=""><input type="checkbox" id="newsletter" name="newsletter" checked>yes, please</label></label>    
+                <label for="message">Message <textarea name="message" id="message" cols="30" rows="3" placeholder="your message"></textarea></label>
+                <button class="btn-orange">Send it</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+    <footer>
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="">About us</a>
+                    <a href="">Blog</a>
+                    <a href="">press</a>
+                    <a href="">Ios app</a>
+                    <a href="">Android app</a>
+                </div>
+                <div class="footer-social">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <p>Copyrights © 2021 Omnifood. All rights reserved.</p>
+    </footer>
+</body>
+</html>
